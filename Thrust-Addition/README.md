@@ -1,4 +1,4 @@
-## Sum of elements in an array
+## Addition of 2 arrays using Thrust
 
 Thrust is a Standard Template Library for CUDA that contains a Collection of data parallel primitives (eg. vectors) and implementations (eg. Sort, Scan, saxpy) that can be used in writing high performance CUDA code.
 
