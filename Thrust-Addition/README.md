@@ -9,6 +9,6 @@ This folder contains the implementation of addition of 2 vectors using Thrust.
 ```sh
 $ g++ dataset_generator.cpp
 $ ./a.out
-$ g++ template.cu
+$ nvcc template.cu
 $ ./a.out <output_vector> <input_vector1> <input_vector2>
 ```

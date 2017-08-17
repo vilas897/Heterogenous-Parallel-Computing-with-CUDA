@@ -7,6 +7,6 @@ An image is represented as `RGB float` values. The code operates directly on the
 ```sh
 $ g++ dataset_generator.cpp
 $ ./a.out
-$ g++ template.cu
+$ nvcc template.cu
 $ ./a.out <output_image> <input_image>
 ```

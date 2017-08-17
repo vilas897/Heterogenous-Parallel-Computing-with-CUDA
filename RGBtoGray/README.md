@@ -9,6 +9,6 @@ The input image consists of RGB value triples that needs to be converted to a si
 ```sh
 $ g++ dataset_generator.cpp
 $ ./a.out
-$ g++ template.cu
+$ nvcc template.cu
 $ ./a.out <output_image> <input_image>
 ```
